@@ -403,7 +403,7 @@ async.series([
         });
 
         // app.listen(config.port, next);
-        app.listen(8080,'0.0.0.0, next);
+        app.listen(8080,'0.0.0.0', next);
     }
 ], function (error) {
     if (error) {
